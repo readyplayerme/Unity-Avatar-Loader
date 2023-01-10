@@ -63,7 +63,7 @@ namespace ReadyPlayerMe.AvatarLoader.Editor
         public static void ShowWindowMenu()
         {
             var window = (SettingsEditorWindow) GetWindow(typeof(SettingsEditorWindow));
-            window.titleContent = new GUIContent("Ready Player Me Settings");
+            window.titleContent = new GUIContent("Settings");
             window.ShowUtility();
 
             AnalyticsEditorLogger.EventLogger.LogOpenDialog(EDITOR_WINDOW_NAME);
