@@ -60,6 +60,7 @@ namespace ReadyPlayerMe.AvatarLoader.Editor
         private string subdomainAfterFocus = string.Empty;
         private const string SUBDOMAIN_FIELD_CONTROL_NAME = "subdomain";
         
+        [MenuItem("Ready Player Me/Settings", priority = 1)]
         public static void ShowWindowMenu()
         {
             var window = (SettingsEditorWindow) GetWindow(typeof(SettingsEditorWindow));

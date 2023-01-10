@@ -32,6 +32,7 @@ namespace ReadyPlayerMe.AvatarLoader.Editor
         private bool isValidUrlShortcode;
         private AvatarLoaderSettings avatarLoaderSettings;
 
+        [MenuItem("Ready Player Me/Avatar Loader", priority = 0)]
         public static void ShowWindowMenu()
         {
             var window = (AvatarLoaderEditorWindow) GetWindow(typeof(AvatarLoaderEditorWindow));
